@@ -2158,13 +2158,10 @@ legend {
 
 .wishlist-links {
   display: flex;
-  justify-content: space-between;
   gap: 1em;
   margin: 1em auto;
   align-items: center;
-  min-width: 320px;
-  width: 655px;
-  max-width: 100%;
+  width: 320px;
 }
 .wl-buttons {
   padding: 8px;
@@ -2525,9 +2522,11 @@ a:hover {
     text-align: center;
     width: 100%;
   }
-  .clear-wishlist, .wishlist-links {
-    width: 320px;
-  }
+  .clear-wishlist {
+  min-width: 320px;
+  width: 320px;
+  max-width: 100%;
+    
 }
 
 /* @media screensize from 769px to 1080px */

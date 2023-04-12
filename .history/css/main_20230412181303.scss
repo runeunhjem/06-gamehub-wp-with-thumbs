@@ -2158,7 +2158,7 @@ legend {
 
 .wishlist-links {
   display: flex;
-  justify-content: space-between;
+  
   gap: 1em;
   margin: 1em auto;
   align-items: center;
@@ -2525,8 +2525,10 @@ a:hover {
     text-align: center;
     width: 100%;
   }
-  .clear-wishlist, .wishlist-links {
+  .clear-wishlist {
+    min-width: 320px;
     width: 320px;
+    max-width: 100%;
   }
 }
 

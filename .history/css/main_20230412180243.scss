@@ -1973,10 +1973,7 @@ legend {
   cursor: pointer;
 }
 .clear-wishlist {
-  min-width: 320px;
-  width: 655px;
-  max-width: 100%;
-  padding: 8px;
+  width: 320px;
   background-color: var(--color-black);
   color: var(--color-yellow-logo);
   border: var(--border-1px-yellow);
@@ -2039,8 +2036,7 @@ legend {
 #wishlist-buttons {
   color: var(--color-yellow-logo);
   text-align: center;
-  width: 100%;
-  // width: 655px;
+  width: 655px;
 }
 
 .cart-item {
@@ -2158,13 +2154,10 @@ legend {
 
 .wishlist-links {
   display: flex;
-  justify-content: space-between;
   gap: 1em;
   margin: 1em auto;
   align-items: center;
-  min-width: 320px;
-  width: 655px;
-  max-width: 100%;
+  width: 320px;
 }
 .wl-buttons {
   padding: 8px;
@@ -2519,14 +2512,6 @@ a:hover {
       margin-right: 10px;
       margin-top: 5px;
     }
-  }
-  #wishlist-buttons {
-    color: var(--color-yellow-logo);
-    text-align: center;
-    width: 100%;
-  }
-  .clear-wishlist, .wishlist-links {
-    width: 320px;
   }
 }
 

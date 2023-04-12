@@ -2525,9 +2525,14 @@ a:hover {
     text-align: center;
     width: 100%;
   }
-  .clear-wishlist, .wishlist-links {
+  .clear-wishlist {
+    // min-width: 320px;
     width: 320px;
+
   }
+  .wishlist-links {
+  width: 320px;
+}
 }
 
 /* @media screensize from 769px to 1080px */
