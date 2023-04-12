@@ -1486,7 +1486,7 @@ legend {
   border-radius: var(--border-radius-boxes);
   cursor: pointer;
 }
-#specials #hide:hover {
+#specials #hide:hover, #specials #hide-thumbs:hover {
   color: var(--color-black);
   background-color: var(--color-yellow-logo);
   border: 1px solid var(--color-black);
