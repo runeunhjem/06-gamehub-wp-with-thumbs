@@ -849,7 +849,7 @@ input {
   border-radius: var(--border-radius-boxes);
   margin-bottom: 2em;
   align-items: center;
-  padding: 2em 1.5em;
+  padding: 2em 0.5em;
 }
 .stats .amount, .stats .type, .checkout__cart .amount, .checkout__cart .type {
   text-align: right;
@@ -1134,8 +1134,9 @@ input {
   width: 100%;
 }
 .checkout .summary, .cart .summary {
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(1.5rem + 3vw);
   text-align: center;
+  margin-bottom: 0;
 }
 .checkout fieldset, .cart fieldset {
   display: flex;
@@ -1181,13 +1182,13 @@ input {
   white-space: nowrap;
 }
 .checkout .checkout__cart, .cart .checkout__cart {
-  grid-template-columns: 120px 100px 80px;
+  grid-template-columns: 122px 90px 90px;
   grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 40px;
 }
 
 .checkout__cart {
   margin-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 #checkout-fieldset {
@@ -1977,10 +1978,25 @@ legend {
   border: var(--border-1px-yellow);
   border-radius: var(--border-radius-boxes);
   min-width: 320px;
+  cursor: pointer;
 }
 
-.clear-cart:hover {
-  text-decoration: underline;
+.clear-wishlist:hover, .wl-buttons:hover, .clear-cart:hover, .remove-button:hover, .cta:hover {
+  color: var(--color-black);
+  background-color: var(--color-yellow-logo);
+  border: 1px solid var(--color-black);
+  font-weight: 600;
+}
+.clear-wishlist:hover a, .wl-buttons:hover a, .clear-cart:hover a, .remove-button:hover a, .cta:hover a {
+  color: var(--color-black);
+}
+
+.buy-games__left:hover a:hover, .buy-games__left:hover img:hover {
+  color: var(--color-black);
+  background-color: var(--color-yellow-logo);
+  border: 1px solid var(--color-black);
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .summary-header {
