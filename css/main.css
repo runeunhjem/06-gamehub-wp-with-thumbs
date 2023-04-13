@@ -825,6 +825,10 @@ input {
   height: 100%;
 }
 
+.index_sign-in-img .header__profile-pic {
+  background-image: url(../images/img_profilepic_unregistered.png);
+}
+
 .profile__name {
   display: grid;
   grid-area: profile__name;
