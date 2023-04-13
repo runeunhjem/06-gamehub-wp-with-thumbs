@@ -1567,6 +1567,10 @@ legend {
   z-index: 1000;
 }
 
+.details-section {
+  display: flex;
+  justify-content: center;
+}
 .details-section .container {
   min-height: 380px;
 }
